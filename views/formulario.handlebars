@@ -1,0 +1,35 @@
+<div class="containner">
+    <div class="header">
+        <h3>Formulário Teste NodeJs VS MySQL</h3>
+    </div>
+    <div class="form-container">
+        <div class="form-header">
+            <p>Formulário</p>
+        </div>
+        <div class="form-body">
+            <h1 class="form-title">Praticando NodeJs</h1>
+            <p>Objetivo de Praticar</p>
+            <form action="/add" method="post">
+                <div class="box-input">
+                    <label for="title">Nome <span class="requerid-field">*</span></label>
+                    <input type="text" name="title" class="block" placeholder="Seu nome" minlength="1" maxlength="30"
+                        required>
+                </div>
+                <div class="box-input">
+                    <label for="age">Idade<span class="requerid-field">*</span></label>
+                    <input type="number" name="age" class="block" placeholder="Sua idade" required>
+                </div>
+                <div class="box-input">
+                    <label for="description">Uma Mensagem<span class="requerid-field">*</span></label>
+                    <textarea name="description" class="block" placeholder="Insira uma mensagem"></textarea>
+                </div>
+                <div class="box-input">
+                    <label for="purchase_date">Data do Seu Nascimento<span class="requerid-field">*</span></label>
+                    <input type="date" name="birthdate" class="block" required>
+                </div>
+                <input type="submit" value="Enviar" class="btn-submit">
+                <input type="reset" value="Limpar" class="btn-reset">
+            </form>
+        </div>
+    </div>
+</div>
